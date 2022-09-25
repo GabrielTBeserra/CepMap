@@ -9,14 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.27.2",
+    "coordenadas-do-cep": "^1.2.0",
+    "leaflet": "^1.9.1",
     "next": "12.3.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-leaflet": "^4.1.0",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
+    "@types/leaflet": "^1.8.0",
     "@types/node": "18.7.21",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
+    "@types/styled-components": "^5.1.26",
     "eslint": "8.24.0",
     "eslint-config-next": "12.3.1",
     "typescript": "4.8.3"
